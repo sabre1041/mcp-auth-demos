@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: kubernetes-mcp-server
+  labels:
+    app.kubernetes.io/name: kubernetes-mcp-server
+    app.kubernetes.io/version: v0.0.51
